@@ -3,6 +3,7 @@ import './App.css';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
 import Frases from "./components/Frases"
+import List from './components/List';
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
         <p><SayMyName nome="Clauber"/></p>
         <p><Pessoa nome="Clauber Adryel" idade="22" altura="1.69" idioma="Português"/></p>
         <p><Frases/></p>
+        <p><List/></p>
     </div>
   );
 }
