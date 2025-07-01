@@ -1,7 +1,5 @@
 # Minha Jornada ao aprendizado sobre React.js
 
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-
 ## Descrição
 
 **react-log** é uma aplicação simples construída com React para controle e monitoramento de logs ou eventos. Ideal para quem quer uma interface rápida para registrar, visualizar e gerenciar entradas de dados em tempo real.

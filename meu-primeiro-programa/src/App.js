@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import HelloWorld from "./components/HelloWorld";
 
 function App() {
+
+  const nomeUsuario = "Adryel";
+  const nomeMaior = nomeUsuario.toUpperCase();
+
+  const url = "test";
+  function soma(s1,s2){
+    return s1 + s2;
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App"> {/* Ao invés de class, é className */}
+
+      <p>Olá,{nomeUsuario}..</p>
+      <p>nome maiusculo: {nomeMaior}</p>
+      <p>Tudo bom?</p>
+      <p>Soma: {soma(1,2)}</p>
+      <p><HelloWorld/> </p>
+      <img src={url} alt="Minha imagem"></img>
     </div>
   );
 }
