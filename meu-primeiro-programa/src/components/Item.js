@@ -1,10 +1,18 @@
-function Item(props){
+import PropTypes from "prop-types";
+
+function Item({marca,lancamento}){
     return (
         <>
-            <ul>
-                <li>Item {props.id}</li>
-            </ul>
+            <li>Marca: {marca}</li>
+            <li>Lancamento: {lancamento}</li>
         </>
     )
 }
+
+Item.propTypes = {
+    marca: PropTypes.string.isRequired,
+    lancamento: PropTypes.number.isRequired
+}
+
+
 export default Item;

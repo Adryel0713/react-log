@@ -4,6 +4,7 @@
 body{
   background-color: #5a5959;
 }
-p{
+p,li{
   color: white;
 }
+
