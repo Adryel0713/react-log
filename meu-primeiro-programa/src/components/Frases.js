@@ -1,7 +1,9 @@
+import styles from "./Frases.module.css";
+
 function Frases(){
 
     return (
-        <div>
+        <div className={styles.container_Teste}>
             <h3>Frase aqui</h3>
         </div>
     )
