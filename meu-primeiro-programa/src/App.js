@@ -8,11 +8,8 @@ import Evento from './components/Evento';
 import Form from './components/Form';
 
 function App() {
-
-  
   return (
     <div className="App"> {/* Ao invés de class, é className */}
-
       <Evento/>
       <Form/>
     </div>
