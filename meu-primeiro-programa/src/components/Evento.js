@@ -1,12 +1,19 @@
+import Button from "./evento/Button";
+
 function Evento(){
 
-    function clicar(){
-        console.log("Você clicou aqui");
+    function meuEvento(){
+        console.log("Ativando primeiro evento");
+    }
+
+    function segundoEvento(){
+        console.log("Ativando segundo Evento..");
     }
     return(
         <div>
-            <p>Clique no botão:</p>
-            <button onClick={clicar}>clique aqui</button>
+            <p>Clique para disparar um evento:</p>
+            <Button event={meuEvento} text="Primeiro Evento"/>
+            <Button event={segundoEvento } text="Segundo Evento"/>
         </div>
     )
 }

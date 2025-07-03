@@ -1,17 +1,11 @@
 import './App.css';
-// import HelloWorld from "./components/HelloWorld";
-// import SayMyName from './components/SayMyName';
-// import Pessoa from './components/Pessoa';
-// import Frases from "./components/Frases"
-// import List from './components/List';
 import Evento from './components/Evento';
-import Form from './components/Form';
 
 function App() {
   return (
-    <div className="App"> {/* Ao invés de class, é className */}
+    <div className="App"> 
+    <h1>Testando Eventos..</h1>
       <Evento/>
-      <Form/>
     </div>
   );
 }
